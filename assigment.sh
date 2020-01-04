@@ -1,7 +1,5 @@
 #! /bin/bash
 
-# Run create.sh first, in order to be able to see all program's capabilities
-
 #bool variable that runs welcome function only once
 first_time_runs=true
 #function with paramenters to create an error message
