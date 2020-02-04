@@ -27,7 +27,7 @@ if [[ $first_time_runs == true ]]; then
 welcome
 fi
 echo "1) Find files/folders located in your computer."
-echo "2) File empty files/folders."
+echo "2) Find empty files/folders."
 echo "3) Find dublicated files."
 echo "4) Make a backup."
 echo "5) Update your computer."
@@ -335,7 +335,7 @@ else
 fi
 }
 
-#user's option 2: "File empty files/folders"
+#user's option 2: "Find empty files/folders"
 findempty() {
 echo "1) Find all empty files."
 echo "2) Find all empty folders."
